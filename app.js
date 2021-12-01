@@ -24,7 +24,7 @@ let array = [
 ];
 
 for (let i = 0; i < array.length; i++) {
-    div.innerText += `Nom : ${array[i].name}, ${array[i].firstName}, ${array[i].age}, ${array[i].sex} \n`
+    div.innerText += `Nom : ${array[i].name}, Prénom : ${array[i].firstName}, Age : ${array[i].age}, Sexe : ${array[i].sex} \n`
 }
 
 console.log(array);
